@@ -1,0 +1,52 @@
+{
+  "name": "mvc-nodejs-generator",
+  "version": "1.0.1",
+  "description": "A CLI tool to generate MVC folder structure with boilerplate code for Node.js applications",
+  "main": "bin/index.js",
+  "bin": {
+    "create-mvc-app": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "mvc",
+    "nodejs",
+    "generator",
+    "boilerplate",
+    "express",
+    "cli",
+    "scaffold",
+    "template",
+    "mongodb",
+    "authentication",
+    "jwt",
+    "rest-api"
+  ],
+  "author": {
+    "name": "Muhammad Sahil",
+    "url": "https://github.com/sahil0902"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil0902/mvc-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sahil0902/mvc-nodejs/issues"
+  },
+  "homepage": "https://github.com/sahil0902/mvc-nodejs#readme",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
